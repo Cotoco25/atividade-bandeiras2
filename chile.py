@@ -57,9 +57,6 @@ for i in range(5):
     t.fd(70)
     t.rt(144)
 
-    
-    
-
 t.end_fill()
 
 

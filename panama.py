@@ -31,6 +31,36 @@ t.goto(450,0)
 t.end_fill()
 
 
+t.pu()
+t.goto(-325,185)
+t.pd()
+
+t.color("steelblue")
+t.begin_fill()
+
+for i in range(5):
+    t.fd(70)
+    t.lt(72)
+    t.fd(70)
+    t.rt(144)
+
+t.end_fill()
+
+
+t.pu()
+t.goto(135,-120)
+t.pd()
+
+t.color("firebrick")
+t.begin_fill()
+
+for i in range(5):
+    t.fd(70)
+    t.lt(72)
+    t.fd(70)
+    t.rt(144)
+
+t.end_fill()
 
 
 t.pensize(5)

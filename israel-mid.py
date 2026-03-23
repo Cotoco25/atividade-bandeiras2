@@ -75,5 +75,6 @@ t.goto(450,-300)
 t.goto(-450,-300)
 t.goto(-450,300)
 
+t.hideturtle()
 
 turtle.mainloop()
